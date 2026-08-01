@@ -1,0 +1,16 @@
+{
+  "name": "Blandify",
+  "description": "Google extension that removes all CSS from the selected website",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "Blandify.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "main.js"
+  }
+}
